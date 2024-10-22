@@ -51,9 +51,29 @@ footer {
 
 .home-header{
     display: flex;
-    background-color: #3F0D12;
+    background-color: #8D775F;
     padding: 20px;
-    margin: 100px;
     justify-content: center;
     color: white;    
+}
+
+.home-header2{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 200px;
+    background-color: #3F0D12;
+    color: white;
+    padding: 20px;
+}   
+
+.home-image1{
+    width: 100%;
+    height: auto;
+}
+
+.home-title{
+    display: flex;
+    justify-content: center;
 }
