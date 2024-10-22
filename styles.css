@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal; 
     font-variation-settings: "opsz" 1;
     margin: 0;
@@ -51,9 +51,36 @@ footer {
 
 .home-header{
     display: flex;
-    background-color: #3F0D12;
+    background-color: #8D775F;
     padding: 20px;
-    margin: 100px;
     justify-content: center;
     color: white;    
 }
+
+<<<<<<< HEAD
+.allevents{
+    display: flex;
+    justify-content: center;
+}
+=======
+.home-header2{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 200px;
+    background-color: #3F0D12;
+    color: white;
+    padding: 20px;
+}   
+
+.home-image1{
+    width: 100%;
+    height: auto;
+}
+
+.home-title{
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> c3f877b42ef37ac6de0f989ca539283b625d3bf0
