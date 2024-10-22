@@ -48,3 +48,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.home-header{
+    display: flex;
+    background-color: #3F0D12;
+    padding: 20px;
+    margin: 100px;
+    justify-content: center;
+    color: white;    
+}
