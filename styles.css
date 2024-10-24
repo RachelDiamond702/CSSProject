@@ -30,14 +30,14 @@ nav {
 }
 
 .navbar a {
-    color: white;
+    color: #F1F0CC;
     text-decoration: none;
     padding: 15px;
     display: block;
 }
 
 .navbar a:hover {
-    background-color: #575757;
+    background-color: #3F0D12;
 }
 
 footer {
@@ -76,4 +76,19 @@ footer {
 .home-title{
     display: flex;
     justify-content: center;
+}
+
+/* CSS for About & Contact Page */
+
+.intro {
+    background-color: #F1F0CC;
+    padding: 20px;
+    color: #3F0D12;
+}
+
+.header {
+    background-color: #3F0D12;
+    color: #F1F0CC;
+    text-align: center;
+    padding: 5px;
 }
