@@ -73,6 +73,29 @@ footer {
     height: auto;
 }
 
+.lobby-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.catherine-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-section {
+    background-color: #8D775F;
+    color: white;
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+.questions-section {
+    background-color: #F1f0cc;
+    padding: 10px;
+}
 .home-title{
     display: flex;
     justify-content: center;
