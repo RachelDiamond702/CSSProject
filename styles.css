@@ -42,9 +42,10 @@ nav {
 
 footer {
     text-align: center;
-    padding: 10px;
     background-color: #A71d31;
     position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
     bottom: 0;
     width: 100%;
 }
