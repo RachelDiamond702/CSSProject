@@ -116,7 +116,7 @@ footer {
     color: #3F0D12;
 }
 
-.header {
+.about_header {
     background-color: #3F0D12;
     color: #F1F0CC;
     text-align: center;
@@ -223,8 +223,8 @@ footer {
     background-color: #3F0D12;
     color: #F1F0CC;
     text-align: center;
-    padding: 5px;
     width: 100%;
+    position: absolute;
 }
 
 .contact {
@@ -233,11 +233,6 @@ footer {
     align-items: center;
     padding: 2rem;
     background-color: #F1F0CC;
-  }
-  
-  .contact_header {
-    text-align: center;
-    margin-bottom: 1.5rem;
   }
   
   .contact_header h1 {
@@ -251,11 +246,6 @@ footer {
     margin-bottom: 1.5rem;
     padding: 1rem;
     border-bottom: 1px solid #ddd;
-  }
-  
-  .contact_section h3 {
-    font-size: 1.2rem;
-    color: #3F0D12;
   }
   
   .contact_section ul,
