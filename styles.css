@@ -371,3 +371,28 @@ footer {
     background-color:#A71D31;
     color: white;
   }
+
+/* FAQ CSS */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.ticketing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.ticketing-section {
+    background-color: #f9f9f9; /* Light background for sections */
+    padding: 15px;
+    border: 1px solid #ddd; /* Border around sections */
+    border-radius: 5px; /* Rounded corners */
+}
+
+@media (max-width: 600px) {
+    .ticketing-grid {
+        grid-template-columns: 1fr; /* Stack sections on small screens */
+    }
+}
