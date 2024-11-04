@@ -280,6 +280,11 @@ footer {
 
 /*CSS for Schedule Page */
 
+.schedule-events{
+    text-align: center;
+    border: 3px solid #D5BF86;
+}
+
 .EventOdd{
     display: flex;
     height: 400px;
@@ -370,4 +375,14 @@ footer {
   .button2:hover {
     background-color:#A71D31;
     color: white;
+  }
+
+  .eventsbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    flex-grow: 10;
+    background-color:#3F0D12;
   }
