@@ -376,13 +376,3 @@ footer {
     background-color:#A71D31;
     color: white;
   }
-
-  .eventsbox{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
-    flex-grow: 10;
-    background-color:#3F0D12;
-  }
