@@ -94,6 +94,8 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #A71d31;
+  padding: 20px;
+  color: #F1F0CC;
 }
 
 .lobby-image {
