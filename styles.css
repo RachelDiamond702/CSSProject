@@ -167,35 +167,41 @@ footer {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #sustainability {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #innovation {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #community{
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #diversity_inclusion {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #diversity_statement {
     font-size: 0.75em;
     border: none;
+  
 }
 .core_values {
     max-width: 30vw;
