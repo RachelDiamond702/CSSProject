@@ -254,6 +254,7 @@ footer {
     gap: 30px;
     flex-grow: 10;
     background-color:#3F0D12;
+    padding-bottom: 50px;
 }
 
 #excellence {
@@ -302,8 +303,8 @@ footer {
 }
 
 .wwo_header {
-    background-color: #3F0D12;
-    color: #F1F0CC;
+    background-color: #F1F0CC;
+    color: #3F0D12;
     text-align: center;
     padding: 5px;
 }
@@ -342,8 +343,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 2em;
     background-color: #F1F0CC;
+    color: #3F0D12;
   }
   
   .contact_header h1 {
@@ -354,8 +356,9 @@ footer {
   .contact_section {
     width: 80%;
     max-width: 600px;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid #ddd;
   }
   
