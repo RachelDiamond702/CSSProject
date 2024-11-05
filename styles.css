@@ -373,7 +373,7 @@ footer {
 .contact-section {
     background-color: #8D775F;
     color: white;
-    padding: 10px; /* Optional: Add padding for better spacing */
+    padding: 10px; 
 }
 .questions-section {
     background-color: #F1f0cc;
@@ -385,23 +385,22 @@ footer {
     color: #3F0D12;
 }
 
-
 .ticketing-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
-    gap: 20px; /* Space between grid items */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
 }
 
 .ticketing-section {
-    background-color: #f9f9f9; /* Light background for sections */
+    background-color: #f9f9f9; 
     padding: 15px;
-    border: 1px solid #ddd; /* Border around sections */
-    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
 }
 
 @media (max-width: 600px) {
     .ticketing-grid {
-        grid-template-columns: 1fr; /* Stack sections on small screens */
+        grid-template-columns: 1fr; 
     }
 }
 
