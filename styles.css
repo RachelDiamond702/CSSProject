@@ -360,10 +360,8 @@ footer {
     background-color: #3F0D12;
     color: #F1F0CC;
     text-align: center;
-    width: 100vw;
-    position: relative;
+    width: 100%;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .contact {
