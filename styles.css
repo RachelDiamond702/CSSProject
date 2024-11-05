@@ -86,7 +86,6 @@ footer {
 .home-image1{
     width: 100%;
     height: auto;
-<<<<<<< HEAD
     display: block;
     margin: 0 auto;
 }
@@ -95,8 +94,6 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #A71d31;
-=======
->>>>>>> 182050fb0b83a8df2c083621d787d175a25aa7ed
 }
 
 .lobby-image {
@@ -116,9 +113,7 @@ footer {
 .contact-section {
     background-color: #8D775F;
     color: white;
-<<<<<<< HEAD
     padding: 10px; 
-=======
     padding: 10px; /* Optional: Add padding for better spacing */
 }
 .questions-section {
@@ -130,7 +125,6 @@ footer {
     justify-content: center;
     color: #3F0D12;
 }
->>>>>>> 182050fb0b83a8df2c083621d787d175a25aa7ed
 
 
 /* CSS for About & Contact Page */
