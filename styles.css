@@ -90,12 +90,7 @@ footer {
     height: auto;
 }
 
-.home-image2{
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0;
-}
+
 
 .home-explore{
     border-bottom: 3px solid #D5BF86;
@@ -409,6 +404,11 @@ footer {
     }
 }
 
+.home-image2{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
 
 /*CSS for Schedule Page */
 
