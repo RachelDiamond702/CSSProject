@@ -73,31 +73,13 @@ footer {
 
 @media (min-width: 1500px) {
   .home-title {
-    padding-top: 20px;
+      padding-top: 20px;
   }
 }
 
 @media (max-width: 400px) {
   .home-title {
-    padding-top: 10px;
-  }
-}
-
-@media (max-width: 400px) and (orientation: landscape) {
-  .home-title {
-    padding-top: 15px;
-  }
-}
-
-@media (min-width: 1500px) and (orientation: landscape) {
-  .home-title {
-    padding-top: 30px;
-  }
-}
-
-@media (min-width: 1500px) and (orientation: portrait) {
-  .home-title {
-    padding-top: 20px;
+      padding-top: 10px;
   }
 }
 
