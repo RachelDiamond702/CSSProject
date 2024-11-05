@@ -85,12 +85,31 @@ footer {
     padding: 20px;
 }   
 
+@media (min-width: 1500px) {
+  .home-header2 {
+      gap: 250px;
+      padding: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-header2 {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+  }
+}
+
 .home-image1{
     width: 100%;
     height: auto;
 }
 
-
+.home-image2{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
 
 .home-explore{
     border-bottom: 3px solid #D5BF86;
@@ -404,11 +423,6 @@ footer {
     }
 }
 
-.home-image2{
-  width: 100%;
-  height: auto;
-  margin: 0;
-}
 
 /*CSS for Schedule Page */
 
