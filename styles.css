@@ -116,7 +116,7 @@ footer {
 .home-image1{
     width: 100%;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .home-image2{
@@ -235,6 +235,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
+    color: #3F0D12;
 }
 
 #mission_p {
@@ -250,12 +252,14 @@ footer {
 }
 
 .core_values img{
-    width: 100%;
+    max-width: 100%;
+    min-width: auto;
 }
 
 .core_values {
     border: #8D775F dashed 2px;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 #corevalues_flexbox {
@@ -273,39 +277,50 @@ footer {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #sustainability {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #innovation {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #community{
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
 
 #diversity_inclusion {
     flex-grow: 2;
     order: 0;
     background-color: #F1F0CC; 
+    text-align: center;
 }
+
+#diversity_statement {
+    font-size: 0.75em;
+    border: none;
+}
+
 .core_values {
     max-width: 30vw;
     min-width: 300px;
 }
 
 .wwo_header {
-    background-color: #3F0D12;
-    color: #F1F0CC;
+    background-color: #F1F0CC;
+    color: #3F0D12;
     text-align: center;
     padding: 5px;
 }
@@ -317,6 +332,8 @@ footer {
     justify-content: space-around;
     gap: 30px;
     flex-grow: 10;
+    background-color: #F1F0CC;
+    padding: 10px;
 }
 
 .wwo {
@@ -333,15 +350,15 @@ footer {
     color: #F1F0CC;
     text-align: center;
     width: 100%;
-    position: absolute;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 2em;
     background-color: #F1F0CC;
+    color: #3F0D12;
   }
   
   .contact_header h1 {
@@ -352,6 +369,9 @@ footer {
   .contact_section {
     width: 80%;
     max-width: 600px;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-bottom: 1.5rem;
     padding: 1rem;
     border-bottom: 1px solid #ddd;
@@ -384,8 +404,63 @@ footer {
       width: calc(50% - 1rem);
     }
   }
+  /* Mobile screen (around 400px) */
+@media (max-width: 400px) {
+    #corevalues_flexbox {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
   
+    .core_values {
+      max-width: 100%; 
+      min-width: auto;
+    }
+  
+    .contact_header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .contact_section {
+      width: 100%; 
+      padding: 0.5rem;
+    }
+  
+    #what_we_offer_flexbox {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
 
+  /* Laptop screen (around 1500px) */
+@media (min-width: 1500px) {
+    .intro {
+      padding: 40px;
+      font-size: 1.2rem;
+    }
+  
+    #corevalues_flexbox {
+      gap: 40px;
+      justify-content: space-evenly;
+    }
+  
+    .core_values {
+      max-width: 25vw; 
+    }
+  
+    .contact_header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .contact_section {
+      width: 60%; 
+      max-width: 800px;
+    }
+  
+    #what_we_offer_flexbox {
+      gap: 40px;
+    }
+  }
 
 /* FAQ CSS */
 
