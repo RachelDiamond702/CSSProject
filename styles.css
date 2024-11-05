@@ -66,9 +66,9 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    color: #3F0D12;
     background-color: #8D775F;
     margin: 0;
+    color: white;
 }
 
 .home-header2{
@@ -87,7 +87,54 @@ footer {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0;
+}
+
+.home-image2{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.home-explore{
+    border-bottom: 3px solid #D5BF86;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.first-timer{
+    border-bottom: 3px solid #D5BF86;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.home-before{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.family-series{
+    background-color: #D5BF86;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.classic-series{
+    background-color: #D5BF86;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.classic-series2{
+    background-color: #D5BF86;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px;
 }
 
 .season-brochure{
@@ -95,8 +142,34 @@ footer {
   justify-content: center;
   background-color: #A71d31;
   padding: 20px;
+  margin: 0;
   color: #F1F0CC;
 }
+
+.season-brochure-text {
+    display: flex;
+    list-style-type: none;
+    background-color: #A71d31;
+    color: #F1F0CC;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.season-brochure-text h4 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.season-brochure-text a {
+    color: #F1F0CC;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
 
 .lobby-image {
     width: 100%;
@@ -122,11 +195,7 @@ footer {
     background-color: #F1f0cc;
     padding: 10px;
 }
-.home-title{
-    display: flex;
-    justify-content: center;
-    color: #3F0D12;
-}
+
 
 
 /* CSS for About & Contact Page */
