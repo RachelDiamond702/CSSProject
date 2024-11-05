@@ -266,6 +266,7 @@ footer {
     gap: 30px;
     flex-grow: 10;
     background-color:#3F0D12;
+    padding-bottom: 50px;
 }
 
 #excellence {
