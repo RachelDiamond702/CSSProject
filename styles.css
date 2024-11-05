@@ -71,6 +71,18 @@ footer {
     color: white;
 }
 
+@media (min-width: 1500px) {
+  .home-title {
+      padding-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-title {
+      padding-top: 10px;
+  }
+}
+
 .home-header2{
     display: flex;
     justify-content: center;
